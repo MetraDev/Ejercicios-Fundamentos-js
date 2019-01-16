@@ -5,6 +5,7 @@
 
 
 // Aquí tu código
+var obj ={a:{b:true, c:[0,1]},d:6 , f:'hola'}
 
 // Hasta aquí
 

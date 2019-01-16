@@ -33,3 +33,12 @@ let gente = [{
         edad: 10
     },
 ]
+var solucion=[];
+for(let arr of gente) {
+
+    if (arr.nombre[0] == 'J') {
+        solucion.push(arr);
+    }
+}
+    console.log(solucion);
+

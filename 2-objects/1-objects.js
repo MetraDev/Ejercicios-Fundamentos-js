@@ -6,7 +6,10 @@
 
 // Aquí tu código
 
-
+ var ordenador =  {marca: 'La pava',
+                    tipo:'portátil',
+                    perifericos:[3,'touchPad',6],
+                    almacenamiento:{discos:['SSD','HDD',], maestro:2}}
 
 // Hasta aquí
 
@@ -14,14 +17,13 @@
 if (typeof ordenador === 'object') {
     console.log('apruebas');
 } else {
-    console.log('suspendes');
-}
+    console.log('suspendes');}
+
 // TEST 2
 if (ordenador.marca === 'La pava') {
     console.log('apruebas');
 } else {
-    console.log('suspendes');
-}
+    console.log('suspendes');}
 // TEST 3
 if (ordenador.tipo === 'portátil') {
     console.log('apruebas');
@@ -38,8 +40,8 @@ if (ordenador.perifericos[1] === 'touchPad') {
 if (ordenador['almacenamiento']['discos'][1] === 'HDD') {
     console.log('apruebas');
 } else {
-    console.log('suspendes');
-}
+    console.log('suspendes');}
+
 // TEST 6
 if (ordenador.almacenamiento.maestro === 0) {
     console.log('apruebas');
@@ -49,8 +51,7 @@ if (ordenador.almacenamiento.maestro === 0) {
 // TEST 7
 if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD') {
     console.log('apruebas');
-    
+
 } else {
     console.log('suspendes');
 }
-

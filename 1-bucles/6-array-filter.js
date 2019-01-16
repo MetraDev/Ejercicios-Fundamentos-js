@@ -32,4 +32,8 @@ let gente = [{
         edad: 10
     },
 ]
+var array =[];
+
+array = gente.filter(gente => gente.nombre.length == 4 );
+console.log(array);
 

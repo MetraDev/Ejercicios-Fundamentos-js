@@ -33,7 +33,12 @@ let gente = [{
         edad: 10
     },
 ]
-for (var gente of gente){
-    
-
+var solucion=[];
+for(let arr of gente) {
+    var edad = arr.edad;
+    if (edad > 25) {
+        solucion += "," + arr.nombre
+    }
 }
+    console.log(solucion);
+

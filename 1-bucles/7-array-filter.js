@@ -35,3 +35,6 @@ let gente = [{
     },
 ]
 
+array = gente.filter(gente => gente.edad < 40 && gente.nombre[0] == 'J' );
+console.log(array);
+
