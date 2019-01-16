@@ -33,3 +33,7 @@ let gente = [{
         edad: 10
     },
 ]
+for (var gente of gente){
+    
+
+}
