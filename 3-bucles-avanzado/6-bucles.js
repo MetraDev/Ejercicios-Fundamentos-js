@@ -15,6 +15,13 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 }
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
+var dobleArr = [];
+for (var bucle of arr){
+    dobleArr.push(bucle * 2)
+
+
+}
+console.log(dobleArr);
 
 
 

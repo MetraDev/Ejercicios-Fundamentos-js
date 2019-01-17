@@ -13,7 +13,9 @@
 // Ha de pasar los test adjuntados.
 
 // Aquí tu código.  Desde aquí:
-const conCuantosParametrosMeHanEjecutado;
+const conCuantosParametrosMeHanEjecutado= (...input) =>{
+    return input.length
+}
 // Hasta aquí.
 
 

@@ -10,7 +10,14 @@
 
 // Aquí tu código
 
+var muestraPorConsolaEurosEnPesetas =(a)=>{
 
+    if(typeof a == 'number'){
+        console.log(a*168);}
+    else {
+        throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
+    }
+}
 // Hasta aquí
 
 

@@ -14,13 +14,12 @@ var matriz = [
 ];
 
 for(var i = 0; i < 3; i++){
-
-    var str = '';
-
     for(var j = 0; j < 3; j++){
-        str += ' '+i+j;
+        matriz[i][j]=i + '' + j;
     }
-    console.log(str ); }
+     }
+console.log(matriz);
+
 
 
 

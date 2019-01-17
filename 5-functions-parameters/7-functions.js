@@ -7,7 +7,10 @@
 //  convierteEurosEnPesetas(1) === 168 // true
 
 // Aquí tu código
+var convierteEurosEnPesetas = ( a)=>{
+    return a*168;
 
+}
 
 // Hasta aquí
 

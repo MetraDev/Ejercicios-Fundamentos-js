@@ -8,7 +8,19 @@
 
 let duplicaNumero = (numero) => {
     // Aquí tu código.  Desde aquí:
-   
+
+
+    if (typeof(numero) == 'string' ){
+        var debo = 'Debo ser ejecutada con un numero';
+        return debo;
+    }else {
+        var resultado = numero * 2;
+        return resultado;
+    }
+
+
+
+
 
 
     // Hasta aquí.

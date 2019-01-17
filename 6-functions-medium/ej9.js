@@ -14,7 +14,10 @@
 let extraerAcronimo = (...input) => {
     let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+   for(bucle of input){
+
+       acronimo+=bucle[0][0]
+   }
     // Hasta aquí.
     return acronimo;
 }

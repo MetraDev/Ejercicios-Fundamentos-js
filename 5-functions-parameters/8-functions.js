@@ -7,7 +7,14 @@
 //  throw new Error('convierteEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
+var convierteEurosEnPesetas = ( a)=>{
+    if(typeof a == 'number'){
+    return a*168;}
+    else{
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    }
 
+}
 // Hasta aquí
 
 

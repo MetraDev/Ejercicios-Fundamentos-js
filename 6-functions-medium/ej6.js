@@ -7,14 +7,17 @@
 // puedes comprobar si es un array con:
 //  typeof array === 'object' && array.length >= 0
 
-
 // Ha de pasar los test adjuntados.
 
 let transformaArrayEnOtraConSusLongitudes = (arrayDeStrings) => {
     let arrayDeLongitudes = [];
     // Aquí tu código.  Desde aquí:
+    if (typeof arrayDeStrings === 'object' && arrayDeStrings.length >= 0){
+    for(bucle of arrayDeStrings){
+        arrayDeLongitudes.push(bucle.length);}}
+    else{return 'Debo ser ejecutada con un array'}
 
-    // Hasta aquí.
+        // Hasta aquí.
     return arrayDeLongitudes
 }
 

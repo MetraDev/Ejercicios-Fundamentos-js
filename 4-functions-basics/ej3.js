@@ -1,4 +1,4 @@
-// crea la función caracterInicial
+ // crea la función caracterInicial
 // debe recibir un tipo string y devolver un string con el primer caracter
 
 // Si la función no recibe un dato tipo string debe
@@ -10,10 +10,17 @@
 
 let caracterInicial = (texto) => {
     // Aquí tu código.  Desde aquí:
-    
-    // Hasta aquí.
-}
+    if (typeof texto == 'string' && texto.length == 0){
+        return 'Debo ser ejecutada con un string no vacío'
+    }
+    if (typeof texto == 'string') {
+        return texto[0];
 
+    }if (!(typeof(texto) == 'string') ){
+        return 'Debo ser ejecutada con un string'
+
+    }
+}
 
 let test = require('../test.js');
 //  test(functionTotest, [argumento1,argumento2, etc..],  expectedOutput) 
